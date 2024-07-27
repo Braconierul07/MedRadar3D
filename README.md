@@ -53,4 +53,10 @@ Once the data is retrieved from the robot arm, the program uses the set of image
 
 ## Interface
 
+The MedRADAR3D interface is a crucial component of the skin scanning robot system, providing seamless control over the robotic arm and facilitating precise diagnostic procedures. Developed using the PyQt5 library and connected to the robotic arm via an Arduino Nano, this interface is designed to enhance the accuracy and efficiency of skin problem diagnostics.
+
+The interface is divided into two main sections: Manual Control and Auto. The Manual Control section allows the operator to move the robotic arm along all its axes (XYZ) with dedicated buttons for directional movements. This granular control ensures that the camera can be positioned accurately over the specific area of concern on the patient's skin.
+
+Once the camera and laser are accurately positioned, the operator can initiate the scanning process by pressing the "SCANARE" button in the Auto section. This automated process takes approximately 30 seconds, during which the camera captures 12 high-quality photographs from different angles, ensuring comprehensive coverage of the targeted area.
+
 <img src="https://github.com/user-attachments/assets/4384ad20-a933-4e65-9f67-23547249fecb" alt="Description" width="320" height="440">
